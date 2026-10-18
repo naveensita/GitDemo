@@ -12,6 +12,10 @@ public class Basics {
 		//Given - All input details
 		//When - Submit the API - resource, http method
 		//Then - Validate the response
+		System.out.println("Hello1");
+		System.out.println("Hello2");
+		System.out.println("Hello3");
+		
 		RestAssured.baseURI = "https://rahulshettyacademy.com";
 		given().log().all().queryParam("key", "qaclick123").header("Content-Type","application/json")
 		.body("{\r\n"
