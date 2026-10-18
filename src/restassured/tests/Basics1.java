@@ -22,6 +22,11 @@ public class Basics1 {
 		System.out.println("ipad");
 		//###########################################################################################
 		
+		System.out.println("chrome");
+		System.out.println("firefox");
+		System.out.println("edge");
+		System.out.println("safari");
+		
 		//Add Place
 		String response = given().log().all().queryParam("key", "qaclick123").header("Content-Type","application/json")
 		.body(Payload.addPlace()).
