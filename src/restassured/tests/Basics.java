@@ -21,6 +21,18 @@ public class Basics {
 		System.out.println("Bye");
 		System.out.println("Bye");
 		
+		
+		System.out.println("ios");
+		System.out.println("android");
+		System.out.println("appium");
+		System.out.println("ipad");
+		//$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+		
+		System.out.println("chrome");
+		System.out.println("firefox");
+		System.out.println("edge");
+		System.out.println("safari");
+		
 		RestAssured.baseURI = "https://rahulshettyacademy.com";
 		given().log().all().queryParam("key", "qaclick123").header("Content-Type","application/json")
 		.body("{\r\n"

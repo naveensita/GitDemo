@@ -16,6 +16,17 @@ public class Basics1 {
 		
 		RestAssured.baseURI = "https://rahulshettyacademy.com";
 		
+		System.out.println("ios");
+		System.out.println("android");
+		System.out.println("appium");
+		System.out.println("ipad");
+		//###########################################################################################
+		
+		System.out.println("chrome");
+		System.out.println("firefox");
+		System.out.println("edge");
+		System.out.println("safari");
+		
 		//Add Place
 		String response = given().log().all().queryParam("key", "qaclick123").header("Content-Type","application/json")
 		.body(Payload.addPlace()).
