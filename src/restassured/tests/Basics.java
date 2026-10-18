@@ -16,6 +16,11 @@ public class Basics {
 		System.out.println("Hello2");
 		System.out.println("Hello3");
 		
+		System.out.println("Bye");
+		System.out.println("Bye");
+		System.out.println("Bye");
+		System.out.println("Bye");
+		
 		RestAssured.baseURI = "https://rahulshettyacademy.com";
 		given().log().all().queryParam("key", "qaclick123").header("Content-Type","application/json")
 		.body("{\r\n"
